@@ -1,0 +1,124 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef1"
+            },
+            "FirstName": "Adriana",
+            "LastName": "Uria",
+            "Email": "adriana.uria@microsoft.com.test",
+            "Company": "Microsoft"
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef2"
+            },
+            "FirstName": "Albert",
+            "LastName": "Einstein",
+            "Email": "albert.einstein@microsoft.com.test",
+            "Company": "Microsoft"
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef3"
+            },
+            "FirstName": "Blaise",
+            "LastName": "Pascal",
+            "Email": "blaise.pascal@microsoft.com.test",
+            "Company": "Microsoft"
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef4"
+            },
+            "FirstName": "Caroline",
+            "LastName": "Herschel",
+            "Email": "caroline.herschel@amazon.com.test",
+            "Company": "Amazon"
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef5"
+            },
+            "FirstName": "Edmond",
+            "LastName": "Halley",
+            "Email": "edmond.halley@amazon.com.test",
+            "Company": "Amazon"
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef6"
+            },
+            "FirstName": "Johannes",
+            "LastName": "Kepler",
+            "Email": "johannes.kepler@smartsheet.com.test",
+            "Company": "Smartsheet"
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef7"
+            },
+            "FirstName": "Maria",
+            "LastName": "Mitchell",
+            "Email": "maria.mitchell@salesforce.com.test",
+            "Company": "Salesforce"
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef8"
+            },
+            "FirstName": "Marie",
+            "LastName": "Curie",
+            "Email": "marie.curie@salesforce.com.test",
+            "Company": "Salesforce"
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef9"
+            },
+            "FirstName": "Max",
+            "LastName": "Born",
+            "Email": "max.born@salesforce.com.test",
+            "Company": "Salesforce"
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef10"
+            },
+            "FirstName": "Enrico",
+            "LastName": "Fermi",
+            "Email": "enrico.fermi@amazon.com.test",
+            "Company": "Amazon"
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef11"
+            },
+            "FirstName": "Gertrude",
+            "LastName": "Seydoux",
+            "Email": "gertrude.seydoux@smartsheet.com.test",
+            "Company": "Smartsheet"
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef12"
+            },
+            "FirstName": "Jane",
+            "LastName": "Goodall",
+            "Email": "jane.goodall@smartsheet.com.test",
+            "Company": "Smartsheet"
+        }
+    ]
+}
