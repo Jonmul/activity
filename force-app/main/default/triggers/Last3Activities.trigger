@@ -1,7 +1,6 @@
 trigger Last3Activities on Task (after insert) {
     List<Task> tsk = new List<Task>{};
     Map<String, Object> params = new Map<String, Object>();
-    //try{   
         for(Task t: Trigger.new){
             String ObjectType = '';
             String myID = t.WhoId;
@@ -19,8 +18,8 @@ trigger Last3Activities on Task (after insert) {
                 
                 Flow.Interview.X3Activities myFlow = new Flow.Interview.X3Activities(params);
                 myFlow.start();
-            //}
+                
         }
-    //}catch(Exception e){
-    //}
+        //thetracker = new ActivityTracking();
+        ActivityTracking.CalculateActivity(Trigger.new);
 }
