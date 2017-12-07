@@ -84,12 +84,34 @@ public with sharing class ActivityTracking {
         }else if(call5 == null){
             myPerson.put('X5th_Call_Sent__c', myDate);
         }
+    }
+    public static void UpdateEmails(SObject myPerson){
+        Datetime myDate = Datetime.now();
+        UpdateEmails(myPerson,myDate);
+    }
+
+    public static void UpdateEmails(SObject myPerson,Datetime myDate){ 
         //emails?
         Datetime email1 = (Datetime)myPerson.get('X1st_Email_Sent__c');
         Datetime email2 = (Datetime)myPerson.get('X2nd_Email_Sent__c');
         Datetime email3 = (Datetime)myPerson.get('X3rd_Email_Sent__c');
         Datetime email4 = (Datetime)myPerson.get('X4th_Email_Sent__c');
         Datetime email5 = (Datetime)myPerson.get('X5th_Email_Sent__c');
+
+        if(call1 == null){
+            myPerson.put('X1st_Email_Sent__c', myDate);
+        }else if(call2 == null){
+            myPerson.put('X2nd_Email_Sent__c', myDate);
+        }else if(call3 == null){
+            myPerson.put('X3rd_Email_Sent__c', myDate);
+        }else if(call4 == null){
+            myPerson.put('X4th_Email_Sent__c', myDate);
+        }else if(call5 == null){
+            myPerson.put('X5th_Email_Sent__c', myDate);
+        }
+
+
+
     }
 
     /* Temporary holding place for field API names
