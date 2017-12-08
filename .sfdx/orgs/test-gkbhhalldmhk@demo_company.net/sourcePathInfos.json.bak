@@ -461,16 +461,15 @@
     [
         "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1512436983222,
-            "changeTime": 1512436983222,
-            "contentHash": "88be7fc88822e1d67ee430c0eda9373c6ec9858c",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 0,
+            "modifiedTime": 1512699357100,
+            "changeTime": 1512699357100,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "835b4c6c0aeca5c0f389fd4b7ffe5a2b352c96e2"
         }
     ],
     [
@@ -734,7 +733,7 @@
             "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\triggers\\Last3Activities.trigger",
             "isDirectory": false,
             "size": 943,
-            "modifiedTime": 1512523593375,
+            "modifiedTime": 1512698159841,
             "changeTime": 1512522663896,
             "contentHash": "918d161c90afa223eda4cd1767d9b1da9b4c46e1",
             "isMetadataFile": false,
@@ -891,14 +890,14 @@
     [
         "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\classes\\ActivityTracking.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\classes\\ActivityTracking.cls",
             "isDirectory": false,
+            "size": 8611,
+            "modifiedTime": 1512698949097,
+            "changeTime": 1512698886980,
+            "contentHash": "f1e5ef13245400a4c0fa8901a02ca2d769234b99",
             "isMetadataFile": false,
-            "size": 6072,
-            "modifiedTime": 1512688235444,
-            "changeTime": 1512688235444,
-            "contentHash": "660bbc003cd58e0ffbce12986d309672c62075e8"
+            "state": "u"
         }
     ],
     [
@@ -912,6 +911,136 @@
             "contentHash": "e794c5c4bd51a6564e57c9c778e3f940627eafe2",
             "isMetadataFile": true,
             "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X10th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X10th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 372,
+            "modifiedTime": 1512699223403,
+            "changeTime": 1512699223403,
+            "contentHash": "62dfcce1336173f8ebc4b0edac624f5049912e36",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X6th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X6th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 370,
+            "modifiedTime": 1512699124202,
+            "changeTime": 1512699124202,
+            "contentHash": "057234fb1ec3cf43ac96b1c6916e080eb8e1d2c6",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X7th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X7th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 370,
+            "modifiedTime": 1512699169571,
+            "changeTime": 1512699169571,
+            "contentHash": "368e4ae94ff4dad09fbf5e175109fdb549a78285",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X8th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X8th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 370,
+            "modifiedTime": 1512699184585,
+            "changeTime": 1512699184585,
+            "contentHash": "f8243bd576c6e827e613ffd8d57f330b2ed3afd6",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X9th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X9th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 370,
+            "modifiedTime": 1512699203763,
+            "changeTime": 1512699203763,
+            "contentHash": "99ca6cbed21f1256ca68a41698151f96640c0634",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X10th_Email_Sent__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X10th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 374,
+            "modifiedTime": 1512699364047,
+            "changeTime": 1512699364047,
+            "contentHash": "eb51c4892f85a2a97bce9aaac31f4411cbd613a4"
+        }
+    ],
+    [
+        "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X6th_Email_Sent__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X6th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 372,
+            "modifiedTime": 1512699272928,
+            "changeTime": 1512699272928,
+            "contentHash": "fb0f6a0b7da040ceaa992b68b463db8acdc16152"
+        }
+    ],
+    [
+        "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X7th_Email_Sent__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X7th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 372,
+            "modifiedTime": 1512699290009,
+            "changeTime": 1512699290009,
+            "contentHash": "58f78dbcdd4461210ed3b8ec0e045079b262e8dc"
+        }
+    ],
+    [
+        "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X8th_Email_Sent__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X8th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 372,
+            "modifiedTime": 1512699322602,
+            "changeTime": 1512699322602,
+            "contentHash": "d3e7932a0fcf990ce17f8f3efe331cf84d06fd16"
+        }
+    ],
+    [
+        "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X9th_Email_Sent__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X9th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 372,
+            "modifiedTime": 1512699341563,
+            "changeTime": 1512699341563,
+            "contentHash": "f30d6defc9a277400474654a0a52a8d0682b5bc8"
         }
     ]
 ]
