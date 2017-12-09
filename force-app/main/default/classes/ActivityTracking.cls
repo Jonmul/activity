@@ -4,19 +4,50 @@ public with sharing class ActivityTracking {
     }
 
     // Allows for use of method with an empty date value
-    public static void ReCalcActivity(Lead myLead){
-        ReCalcActivity(myLead,Date.newInstance(1900, 1, 1));
+    /*
+    public static void ReCalcActivity(SObject[] myLeads){
+        ReCalcActivity(myLeads,Datetime.newInstance(1900, 1, 1));
     }
+    */
 
     // Clears tracking activity and recalculates the Activity tracking from the myDate
     // I.e. if myDate = Nov. 1st, 2017, then the Activity tracking will calculate as of Nov. 1st, 2017
-    public static void ReCalcActivity(Lead myLead,Date myDate ){
+    public static void ReCalcActivity(SObject[] myLeads){
+        //set<ID> peopleIDs = new set<ID>(); // Set of People IDs
+        Map<Id,SObject> thePeople = new Map<Id,SObject>(myLeads);
+        //List<String> idList = new List<String>();
 
+        for(SObject p:myLeads){
+            ClearTracking(p);
+            //peopleIDs.add((String)p.get('Id'));
+            //idList.add((String)p.get('Id'));
+        }
+
+
+        List<Task> allActivity = [SELECT Id,WhoId,CreatedDate,Subject,Type,IsClosed FROM task WHERE WhoId IN :myLeads AND IsClosed=true ORDER BY CreatedDate desc];
+        List<Task> theActivity = new List<Task>();
+
+        for(Task t: allActivity){
+            SObject p = thePeople.get(t.WhoId);
+            Datetime resetTime = (Datetime)p.get('Reset_Tracking__c');
+            if(resetTime <= t.CreatedDate){
+                theActivity.add(t);
+            }
+        }
+
+        CalculateActivity(theActivity);
+    }
+
+    public static void ClearTracking(SObject[] records){
+        for(SObject p: records){
+            ClearTracking(p);
+        }
     }
 
     // This is meant to clear out all activity logged into the designated Lead/Contact date fields
     public static void ClearTracking(SObject record){
         
+
         // Clear Call date fields
         record.put('X1st_Call_Sent__c', null);
         record.put('X2nd_Call_Sent__c', null);
@@ -42,7 +73,7 @@ public with sharing class ActivityTracking {
         record.put('X10th_Email_Sent__c', null);
 
         // Might remove to prevent DML overload in batch calls
-        Update record;
+        //Update record;
     }
 
 
@@ -51,7 +82,7 @@ public with sharing class ActivityTracking {
     // -----Allows for this Method to be used to update using old task data, or new task data
     // -----I.e. if I want to use the date on the Activity Record, then I would set useActivityDate = true.
     // tasks: 
-    // -----Requires- whoID, type
+    // -----Requires- whoID, type,id,createddate,subject,type
     public static void CalculateActivity(Task[] tasks){
         /***************
         * Variables
@@ -80,8 +111,8 @@ public with sharing class ActivityTracking {
             }
         }
 
-        List<Lead> theLeads = [SELECT Id,title,X1st_Email_Sent__c,X2nd_Email_Sent__c,X3rd_Email_Sent__c,X4th_Email_Sent__c,X5th_Email_Sent__c,X1st_Call_Sent__c,X2nd_Call_Sent__c,X3rd_Call_Sent__c,X4th_Call_Sent__c,X5th_Call_Sent__c FROM Lead WHERE Id IN :s_LeadIDs ];
-        List<Contact> theContacts = [SELECT Id,title,X1st_Email_Sent__c,X2nd_Email_Sent__c,X3rd_Email_Sent__c,X4th_Email_Sent__c,X5th_Email_Sent__c,X1st_Call_Sent__c,X2nd_Call_Sent__c,X3rd_Call_Sent__c,X4th_Call_Sent__c,X5th_Call_Sent__c FROM Contact WHERE Id IN :s_ContactIDs ];
+        List<Lead> theLeads = [SELECT Id,title,X1st_Email_Sent__c,X2nd_Email_Sent__c,X3rd_Email_Sent__c,X4th_Email_Sent__c,X5th_Email_Sent__c,X6th_Email_Sent__c,X7th_Email_Sent__c,X8th_Email_Sent__c,X9th_Email_Sent__c,X10th_Email_Sent__c,X1st_Call_Sent__c,X2nd_Call_Sent__c,X3rd_Call_Sent__c,X4th_Call_Sent__c,X5th_Call_Sent__c,X6th_Call_Sent__c,X7th_Call_Sent__c,X8th_Call_Sent__c,X9th_Call_Sent__c,X10th_Call_Sent__c FROM Lead WHERE Id IN :s_LeadIDs ];
+        List<Contact> theContacts = [SELECT Id,title,X1st_Email_Sent__c,X2nd_Email_Sent__c,X3rd_Email_Sent__c,X4th_Email_Sent__c,X5th_Email_Sent__c,X6th_Email_Sent__c,X7th_Email_Sent__c,X8th_Email_Sent__c,X9th_Email_Sent__c,X10th_Email_Sent__c,X1st_Call_Sent__c,X2nd_Call_Sent__c,X3rd_Call_Sent__c,X4th_Call_Sent__c,X5th_Call_Sent__c,X6th_Call_Sent__c,X7th_Call_Sent__c,X8th_Call_Sent__c,X9th_Call_Sent__c,X10th_Call_Sent__c FROM Contact WHERE Id IN :s_ContactIDs ];
 
         //Map<Id,Lead> leadMap = new Map<Id,Lead>(theLeads);
         //Map<Id,Contact> contactMap = new Map<Id,Contact>(theContacts);
@@ -111,8 +142,8 @@ public with sharing class ActivityTracking {
             }
         }
 
-        Update theLeads;
-        Update theContacts;
+        //Update theLeads;
+        //Update theContacts;
     }
 
     // Updates the Call history on the Lead or Contact record
@@ -208,6 +239,17 @@ public with sharing class ActivityTracking {
         }else if(email10 == null){
             myPerson.put('X10th_Email_Sent__c', myDate);
         }
+        //myPerson.put('X1st_Email_Sent__c', myDate);
+        Datetime email12 = (Datetime)myPerson.get('X1st_Email_Sent__c');
+        Datetime email22 = (Datetime)myPerson.get('X2nd_Email_Sent__c');
+        Datetime email32 = (Datetime)myPerson.get('X3rd_Email_Sent__c');
+        Datetime email42 = (Datetime)myPerson.get('X4th_Email_Sent__c');
+        Datetime email52 = (Datetime)myPerson.get('X5th_Email_Sent__c');
+        Datetime email62 = (Datetime)myPerson.get('X6th_Email_Sent__c');
+        Datetime email72 = (Datetime)myPerson.get('X7th_Email_Sent__c');
+        Datetime email82 = (Datetime)myPerson.get('X8th_Email_Sent__c');
+        Datetime email92 = (Datetime)myPerson.get('X9th_Email_Sent__c');
+        Datetime email102 = (Datetime)myPerson.get('X10th_Email_Sent__c');
     }
 
     // Returns the activity type of the record
@@ -215,17 +257,17 @@ public with sharing class ActivityTracking {
     public static String GetType(Task t){
         
         if(t.Type != null){
-            if( t.Type.contains('Email')){
+            if( t.Type.toLowerCase().contains('email')){
                 return 'email';
             }
-            else if(t.Type.contains('Call')){
+            else if(t.Type.toLowerCase().contains('call')){
                 return 'call';
             }
         }else if(t.Subject != null){
-            if(t.Subject.contains('Email')){
+            if(t.Subject.toLowerCase().contains('email')){
                 return 'email';
             }
-            else if(t.Subject.contains('Call')){
+            else if(t.Subject.toLowerCase().contains('call')){
                 return 'call';
             }
         }
