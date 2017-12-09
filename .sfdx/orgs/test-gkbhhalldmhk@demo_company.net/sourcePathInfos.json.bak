@@ -5,7 +5,7 @@
             "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1512436605963,
+            "modifiedTime": 1512798698178,
             "changeTime": 1512436605963,
             "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
             "isMetadataFile": false,
@@ -136,25 +136,10 @@
             "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\flows",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1512436983102,
+            "modifiedTime": 1512862317060,
             "changeTime": 1512436983102,
             "contentHash": "758db369e6916915fb7a14d32edbd95da690a920",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
-        "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\flows\\X3Activities-16.flow-meta.xml",
-        {
-            "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\flows\\X3Activities-16.flow-meta.xml",
-            "isDirectory": false,
-            "size": 50124,
-            "modifiedTime": 1512436983106,
-            "changeTime": 1512436983106,
-            "contentHash": "37ad5df4b5d1f3ee6ce1aea2943c10818a362bbc",
-            "isMetadataFile": true,
             "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
@@ -759,9 +744,9 @@
             "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1512780029562,
-            "changeTime": 1512505401573,
-            "contentHash": "98da2bfbc747d1c116205df501bd08dfc84cae9b",
+            "modifiedTime": 1512861809691,
+            "changeTime": 1512861809691,
+            "contentHash": "ec84b948215cdd4c54d3822b3d64f90bf2e1d4b6",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": true
@@ -807,19 +792,6 @@
         }
     ],
     [
-        "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\flowDefinitions\\X3Activities.flowDefinition-meta.xml",
-        {
-            "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\flowDefinitions\\X3Activities.flowDefinition-meta.xml",
-            "isDirectory": false,
-            "size": 172,
-            "modifiedTime": 1512504559742,
-            "changeTime": 1512504559742,
-            "contentHash": "b8012915da818bc51a59633a5c20c9992e41aecd",
-            "isMetadataFile": true,
-            "state": "u"
-        }
-    ],
-    [
         "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\layouts",
         {
             "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\layouts",
@@ -838,7 +810,7 @@
             "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\flowDefinitions",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1512504559741,
+            "modifiedTime": 1512862319049,
             "changeTime": 1512504559741,
             "contentHash": "a772b9e054838b61c8e736de34e86e643a4a65e9",
             "isMetadataFile": false,
@@ -889,10 +861,10 @@
         {
             "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\classes\\ActivityTracking.cls",
             "isDirectory": false,
-            "size": 12979,
-            "modifiedTime": 1512783907682,
-            "changeTime": 1512783907682,
-            "contentHash": "300c08f9d9e7874833d0706a42ed2173e5498aca",
+            "size": 14273,
+            "modifiedTime": 1512798511083,
+            "changeTime": 1512798511083,
+            "contentHash": "a42d276afd521cd070ad9c0ee07cd6933b7be67b",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1199,14 +1171,14 @@
     [
         "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\triggers\\LeadTrigger.trigger",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\triggers\\LeadTrigger.trigger",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1042,
             "modifiedTime": 1512784421748,
             "changeTime": 1512784421748,
-            "contentHash": "ec19b80ec9368ce28b2114ffb28fd789951d8008"
+            "contentHash": "ec19b80ec9368ce28b2114ffb28fd789951d8008",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -1266,10 +1238,10 @@
         {
             "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 5215,
-            "modifiedTime": 1512780631715,
-            "changeTime": 1512780631715,
-            "contentHash": "6685e09cae13325f295d10ca27ca7a44c8f70414",
+            "size": 5393,
+            "modifiedTime": 1512862315205,
+            "changeTime": 1512862315205,
+            "contentHash": "38f3efed7867d1cd6d56579293334f85bf5da71d",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -1279,10 +1251,10 @@
         {
             "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 4877,
-            "modifiedTime": 1512780631719,
-            "changeTime": 1512780631719,
-            "contentHash": "f3aa434c0deeb6593ad25cd2cf7927595f5f6ee1",
+            "size": 5043,
+            "modifiedTime": 1512862309687,
+            "changeTime": 1512862309687,
+            "contentHash": "ec26328b85bce5a4c0552f5ee8089729565c1bd2",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -1292,10 +1264,10 @@
         {
             "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 4877,
-            "modifiedTime": 1512780631732,
-            "changeTime": 1512780631732,
-            "contentHash": "f3aa434c0deeb6593ad25cd2cf7927595f5f6ee1",
+            "size": 5043,
+            "modifiedTime": 1512862306951,
+            "changeTime": 1512862306951,
+            "contentHash": "ec26328b85bce5a4c0552f5ee8089729565c1bd2",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -1305,10 +1277,10 @@
         {
             "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
-            "size": 17663,
-            "modifiedTime": 1512780631751,
-            "changeTime": 1512780631751,
-            "contentHash": "45533f19b461e41d97e1d365329383df9c792f8c",
+            "size": 18264,
+            "modifiedTime": 1512862311703,
+            "changeTime": 1512862311703,
+            "contentHash": "8d8a8f77f84f95ca84c348c0a38457b624084d18",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -1332,7 +1304,7 @@
             "sourcePath": "C:\\Users\\jonathan.muller\\Documents\\GitHub\\ActivityTracking\\activity\\force-app\\main\\default\\profiles",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1512780631746,
+            "modifiedTime": 1512862315205,
             "changeTime": 1512780631746,
             "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
             "isMetadataFile": false,

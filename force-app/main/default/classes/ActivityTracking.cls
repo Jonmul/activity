@@ -24,7 +24,7 @@ public with sharing class ActivityTracking {
         }
 
 
-        List<Task> allActivity = [SELECT Id,WhoId,CreatedDate,Subject,Type,IsClosed FROM task WHERE WhoId IN :myLeads AND IsClosed=true ORDER BY CreatedDate desc];
+        List<Task> allActivity = [SELECT Id,WhoId,CreatedDate,Subject,Type,IsClosed FROM task WHERE WhoId IN :myLeads AND IsClosed=true ORDER BY CreatedDate asc];
         List<Task> theActivity = new List<Task>();
 
         for(Task t: allActivity){
@@ -35,7 +35,7 @@ public with sharing class ActivityTracking {
             }
         }
 
-        CalculateActivity(theActivity);
+        CalculateActivity(theActivity,myLeads);
     }
 
     public static void ClearTracking(SObject[] records){
@@ -84,6 +84,7 @@ public with sharing class ActivityTracking {
     // tasks: 
     // -----Requires- whoID, type,id,createddate,subject,type
     public static void CalculateActivity(Task[] tasks){
+
         /***************
         * Variables
         ***************/
@@ -110,16 +111,29 @@ public with sharing class ActivityTracking {
                 }
             }
         }
-
         List<Lead> theLeads = [SELECT Id,title,X1st_Email_Sent__c,X2nd_Email_Sent__c,X3rd_Email_Sent__c,X4th_Email_Sent__c,X5th_Email_Sent__c,X6th_Email_Sent__c,X7th_Email_Sent__c,X8th_Email_Sent__c,X9th_Email_Sent__c,X10th_Email_Sent__c,X1st_Call_Sent__c,X2nd_Call_Sent__c,X3rd_Call_Sent__c,X4th_Call_Sent__c,X5th_Call_Sent__c,X6th_Call_Sent__c,X7th_Call_Sent__c,X8th_Call_Sent__c,X9th_Call_Sent__c,X10th_Call_Sent__c FROM Lead WHERE Id IN :s_LeadIDs ];
         List<Contact> theContacts = [SELECT Id,title,X1st_Email_Sent__c,X2nd_Email_Sent__c,X3rd_Email_Sent__c,X4th_Email_Sent__c,X5th_Email_Sent__c,X6th_Email_Sent__c,X7th_Email_Sent__c,X8th_Email_Sent__c,X9th_Email_Sent__c,X10th_Email_Sent__c,X1st_Call_Sent__c,X2nd_Call_Sent__c,X3rd_Call_Sent__c,X4th_Call_Sent__c,X5th_Call_Sent__c,X6th_Call_Sent__c,X7th_Call_Sent__c,X8th_Call_Sent__c,X9th_Call_Sent__c,X10th_Call_Sent__c FROM Contact WHERE Id IN :s_ContactIDs ];
+
+        List<SObject> thePeople = new List<SObject>();
+
+        thePeople.addAll(theLeads);
+        thePeople.addAll(theContacts);
+        CalculateActivity(tasks,thePeople);
+
+        Update theLeads;
+        Update theContacts;
+    }
+    public static void CalculateActivity(Task[] tasks,SObject[] thePeople){
+        //List<Lead> theLeads = [SELECT Id,title,X1st_Email_Sent__c,X2nd_Email_Sent__c,X3rd_Email_Sent__c,X4th_Email_Sent__c,X5th_Email_Sent__c,X6th_Email_Sent__c,X7th_Email_Sent__c,X8th_Email_Sent__c,X9th_Email_Sent__c,X10th_Email_Sent__c,X1st_Call_Sent__c,X2nd_Call_Sent__c,X3rd_Call_Sent__c,X4th_Call_Sent__c,X5th_Call_Sent__c,X6th_Call_Sent__c,X7th_Call_Sent__c,X8th_Call_Sent__c,X9th_Call_Sent__c,X10th_Call_Sent__c FROM Lead WHERE Id IN :s_LeadIDs ];
+        //List<Contact> theContacts = [SELECT Id,title,X1st_Email_Sent__c,X2nd_Email_Sent__c,X3rd_Email_Sent__c,X4th_Email_Sent__c,X5th_Email_Sent__c,X6th_Email_Sent__c,X7th_Email_Sent__c,X8th_Email_Sent__c,X9th_Email_Sent__c,X10th_Email_Sent__c,X1st_Call_Sent__c,X2nd_Call_Sent__c,X3rd_Call_Sent__c,X4th_Call_Sent__c,X5th_Call_Sent__c,X6th_Call_Sent__c,X7th_Call_Sent__c,X8th_Call_Sent__c,X9th_Call_Sent__c,X10th_Call_Sent__c FROM Contact WHERE Id IN :s_ContactIDs ];
 
         //Map<Id,Lead> leadMap = new Map<Id,Lead>(theLeads);
         //Map<Id,Contact> contactMap = new Map<Id,Contact>(theContacts);
         Map<Id,SObject> peopleMap = new Map<Id,SObject>();
-        peopleMap.putAll(theLeads);
-        peopleMap.putAll(theContacts);
-
+        //peopleMap.putAll(theLeads);
+        //peopleMap.putAll(theContacts);
+        peopleMap.putAll(thePeople);
+        
         //for(Lead l:theLeads){
             //l.title = 'this works';
             // This was to test the 'state' of the record being sent over.

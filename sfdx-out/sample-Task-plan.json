@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Task",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "sample-Tasks.json"
+        ]
+    }
+]
