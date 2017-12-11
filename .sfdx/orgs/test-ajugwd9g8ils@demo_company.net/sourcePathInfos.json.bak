@@ -1,0 +1,1468 @@
+[
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1512862783067,
+            "changeTime": 1512862783067,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1512862783067,
+            "changeTime": 1512862783067,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1512863947563,
+            "changeTime": 1512863947563,
+            "contentHash": "179668002fcc9cee3b25a4bdcd2e954766d67447",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\classes",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\classes",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1512862783070,
+            "changeTime": 1512862783070,
+            "contentHash": "0b8f25d7367b099a82ba78f5090ea3efbf38dd70",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\classes\\ActivityHelper.cls",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\classes\\ActivityHelper.cls",
+            "isDirectory": false,
+            "size": 1074,
+            "modifiedTime": 1512862783068,
+            "changeTime": 1512862783068,
+            "contentHash": "f5d3564b8572ccb85cd9e45bf09a310fa548153a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\classes\\ActivityHelper.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\classes\\ActivityHelper.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1512862783068,
+            "changeTime": 1512862783068,
+            "contentHash": "bfbd0da08fd4f5f0bc000f2768485100cec4d1af",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\classes\\ActivityTracking.cls",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\classes\\ActivityTracking.cls",
+            "isDirectory": false,
+            "size": 12375,
+            "modifiedTime": 1512953621451,
+            "changeTime": 1512953621451,
+            "contentHash": "7c2ec2743d2987842be9585b5aa108e5484e1ff5",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\classes\\ActivityTracking.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\classes\\ActivityTracking.cls-meta.xml",
+            "isDirectory": false,
+            "size": 199,
+            "modifiedTime": 1512862783069,
+            "changeTime": 1512862783069,
+            "contentHash": "6c14ff146d8b915897093fbda481c6be7e5b82c7",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\classes\\TestTaskUpdate.cls",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\classes\\TestTaskUpdate.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4647,
+            "modifiedTime": 1512957382578,
+            "changeTime": 1512957382578,
+            "isWorkspace": false,
+            "contentHash": "f2f3efa335909397b2753a3767a700b96366f4d2"
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\classes\\TestTaskUpdate.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\classes\\TestTaskUpdate.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1512862783070,
+            "changeTime": 1512862783070,
+            "contentHash": "bfbd0da08fd4f5f0bc000f2768485100cec4d1af",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\flexipages",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\flexipages",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1512951958514,
+            "changeTime": 1512951958514,
+            "contentHash": "40659223df04a0f9156bdef2cfb02ef61bac2f4f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\flexipages\\Lead_Record_Page.flexipage-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\flexipages\\Lead_Record_Page.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 4794,
+            "modifiedTime": 1512862783071,
+            "changeTime": 1512862783071,
+            "contentHash": "57226ce8a0db71da3f9027137bc6cfb02e38fb15",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\layouts",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\layouts",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1512951958501,
+            "changeTime": 1512951958501,
+            "contentHash": "3ee09969a8dad4159d530f38173df65e6f78d70e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\layouts\\Lead-Lead Layout.layout-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\layouts\\Lead-Lead Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 18684,
+            "modifiedTime": 1512862783072,
+            "changeTime": 1512862783072,
+            "contentHash": "70efb0112b24d1106155b6aff9fe600cb0b65b9c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\layouts\\Task-Task Layout.layout-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\layouts\\Task-Task Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 6441,
+            "modifiedTime": 1512864136163,
+            "changeTime": 1512864136163,
+            "contentHash": "94de0129f4d8d657fba85a65594a3fc20df7e25a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1512862783084,
+            "changeTime": 1512862783084,
+            "contentHash": "6651099e9d8335163432ae5f8610433cba756362",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1512862783073,
+            "changeTime": 1512862783073,
+            "contentHash": "47adfd5ffb5b99db19f7f5b167792192778dbb7e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\Contact.object-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\Contact.object-meta.xml",
+            "isDirectory": false,
+            "size": 105,
+            "modifiedTime": 1512862783073,
+            "changeTime": 1512862783073,
+            "contentHash": "9884171c7907d10413a021f099cf1c0b5c2c150f",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1512953596486,
+            "changeTime": 1512953596486,
+            "contentHash": "68dcaf2c34b17806c965ff748aaeb56888881e16",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\Activity_Date_1__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\Activity_Date_1__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 375,
+            "modifiedTime": 1512862783074,
+            "changeTime": 1512862783074,
+            "contentHash": "2e9893eabebc782ead7ec79e537d5fe34a0eefe0",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\Activity_Date_2__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\Activity_Date_2__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 375,
+            "modifiedTime": 1512862783074,
+            "changeTime": 1512862783074,
+            "contentHash": "b3015124fc74aa63ec7dae24773f249bb4801deb",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\Activity_Date_3__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\Activity_Date_3__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 379,
+            "modifiedTime": 1512862783074,
+            "changeTime": 1512862783074,
+            "contentHash": "39eeb11ea88c76b980a541a3fa7ad2fba325319c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\Last_Call__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\Last_Call__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 367,
+            "modifiedTime": 1512862783075,
+            "changeTime": 1512862783075,
+            "contentHash": "df887a37d530e953b5ddb72819d747add0ff3ff9",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\Last_Email__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\Last_Email__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 369,
+            "modifiedTime": 1512862783076,
+            "changeTime": 1512862783076,
+            "contentHash": "6defafd8723f41e1b1a69457a50f90be699328b3",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X10th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X10th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783076,
+            "changeTime": 1512862783076,
+            "contentHash": "9ac1a4a0b4d1a7cded383d1a4a3ab807f9fd9935",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X10th_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X10th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 384,
+            "modifiedTime": 1512862783076,
+            "changeTime": 1512862783076,
+            "contentHash": "81794bdf57d471082ccc9844d0a40c3e96313457",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X1st_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X1st_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783077,
+            "changeTime": 1512862783077,
+            "contentHash": "258ec6d00cc3364c0c88fc7355f75fefd3214f0d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X1st_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X1st_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783077,
+            "changeTime": 1512862783077,
+            "contentHash": "aa5e2ef31fe75aa637a92b7b44c16a95b3c1ca5d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X2nd_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X2nd_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783078,
+            "changeTime": 1512862783078,
+            "contentHash": "bfbd936d71dce4f998e9d6092ac563e918a91e18",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X2nd_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X2nd_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783078,
+            "changeTime": 1512862783078,
+            "contentHash": "4f4a36b5fd9d20c05bd5109d8ff9b6cc6cba5d8e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X3rd_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X3rd_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783078,
+            "changeTime": 1512862783078,
+            "contentHash": "7d30d0f14f99974004948ca64d47b2c498af5bea",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X3rd_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X3rd_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783079,
+            "changeTime": 1512862783079,
+            "contentHash": "60401ef5cdc7e4161e7855e9897558de3d036c6e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X4th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X4th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783079,
+            "changeTime": 1512862783079,
+            "contentHash": "a5b11f4c8e820634411fb52f25a3767ea70f6320",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X4th_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X4th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783080,
+            "changeTime": 1512862783080,
+            "contentHash": "5c495a8aa4fa8877eee983d35b18710ed4e7bc97",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X5th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X5th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783080,
+            "changeTime": 1512862783080,
+            "contentHash": "7e3ba817e06a1200f481d5675b2a25cd2c50fd98",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X5th_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X5th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783081,
+            "changeTime": 1512862783081,
+            "contentHash": "5881d085649af8876ce5e30980b170b796160686",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X6th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X6th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783081,
+            "changeTime": 1512862783081,
+            "contentHash": "235825423ff78353ff16257d6b2a0fc0578eb360",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X6th_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X6th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783081,
+            "changeTime": 1512862783081,
+            "contentHash": "49bebba9dce3dc7ef42b644583a544d91ff1bc0b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X7th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X7th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783082,
+            "changeTime": 1512862783082,
+            "contentHash": "e3c6518a75d2799bd13154bb1a74f66ea9db87a7",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X7th_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X7th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783082,
+            "changeTime": 1512862783082,
+            "contentHash": "b84aac16169e52f09e4431dcac08d4a923ff1948",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X8th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X8th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783083,
+            "changeTime": 1512862783083,
+            "contentHash": "ddeace6c0acaefacf88b746e990a4ac693b3adc7",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X8th_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X8th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783083,
+            "changeTime": 1512862783083,
+            "contentHash": "70316ef63f1cf6eded5ecc512dc9116f02c1a5cd",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X9th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X9th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783083,
+            "changeTime": 1512862783083,
+            "contentHash": "d16fd839920a103680f60f62d5f318ea13f1eef8",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X9th_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\X9th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783084,
+            "changeTime": 1512862783084,
+            "contentHash": "f371c16ad9710f2161b863a004db8cb30cc5554a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1512862783095,
+            "changeTime": 1512862783095,
+            "contentHash": "304965c95e5054dc96d8b71408356d2b2c660012",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1512953596477,
+            "changeTime": 1512953596477,
+            "contentHash": "68dcaf2c34b17806c965ff748aaeb56888881e16",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\Activity_Date_1__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\Activity_Date_1__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 375,
+            "modifiedTime": 1512862783085,
+            "changeTime": 1512862783085,
+            "contentHash": "2e9893eabebc782ead7ec79e537d5fe34a0eefe0",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\Activity_Date_2__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\Activity_Date_2__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 375,
+            "modifiedTime": 1512862783085,
+            "changeTime": 1512862783085,
+            "contentHash": "b3015124fc74aa63ec7dae24773f249bb4801deb",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\Activity_Date_3__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\Activity_Date_3__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 379,
+            "modifiedTime": 1512862783086,
+            "changeTime": 1512862783086,
+            "contentHash": "39eeb11ea88c76b980a541a3fa7ad2fba325319c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\Clear_Tracking__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\Clear_Tracking__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 341,
+            "modifiedTime": 1512862783086,
+            "changeTime": 1512862783086,
+            "contentHash": "5fa87d2077d3032a6edd57665ab9284e3467319d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\Last_Call__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\Last_Call__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 367,
+            "modifiedTime": 1512862783086,
+            "changeTime": 1512862783086,
+            "contentHash": "df887a37d530e953b5ddb72819d747add0ff3ff9",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\Last_Email__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\Last_Email__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 369,
+            "modifiedTime": 1512862783087,
+            "changeTime": 1512862783087,
+            "contentHash": "6defafd8723f41e1b1a69457a50f90be699328b3",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\Reset_Tracking__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\Reset_Tracking__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 341,
+            "modifiedTime": 1512862783087,
+            "changeTime": 1512862783087,
+            "contentHash": "5d5d22c42dd5a3f45560ac8f047d87da5f40bcf6",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X10th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X10th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783088,
+            "changeTime": 1512862783088,
+            "contentHash": "9ac1a4a0b4d1a7cded383d1a4a3ab807f9fd9935",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X10th_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X10th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 384,
+            "modifiedTime": 1512862783088,
+            "changeTime": 1512862783088,
+            "contentHash": "81794bdf57d471082ccc9844d0a40c3e96313457",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X1st_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X1st_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783088,
+            "changeTime": 1512862783088,
+            "contentHash": "258ec6d00cc3364c0c88fc7355f75fefd3214f0d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X1st_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X1st_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783089,
+            "changeTime": 1512862783089,
+            "contentHash": "aa5e2ef31fe75aa637a92b7b44c16a95b3c1ca5d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X2nd_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X2nd_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783089,
+            "changeTime": 1512862783089,
+            "contentHash": "bfbd936d71dce4f998e9d6092ac563e918a91e18",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X2nd_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X2nd_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783089,
+            "changeTime": 1512862783089,
+            "contentHash": "4f4a36b5fd9d20c05bd5109d8ff9b6cc6cba5d8e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X3rd_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X3rd_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783090,
+            "changeTime": 1512862783090,
+            "contentHash": "7d30d0f14f99974004948ca64d47b2c498af5bea",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X3rd_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X3rd_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783090,
+            "changeTime": 1512862783090,
+            "contentHash": "60401ef5cdc7e4161e7855e9897558de3d036c6e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X4th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X4th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783091,
+            "changeTime": 1512862783091,
+            "contentHash": "a5b11f4c8e820634411fb52f25a3767ea70f6320",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X4th_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X4th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783091,
+            "changeTime": 1512862783091,
+            "contentHash": "5c495a8aa4fa8877eee983d35b18710ed4e7bc97",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X5th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X5th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783091,
+            "changeTime": 1512862783091,
+            "contentHash": "7e3ba817e06a1200f481d5675b2a25cd2c50fd98",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X5th_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X5th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783092,
+            "changeTime": 1512862783092,
+            "contentHash": "5881d085649af8876ce5e30980b170b796160686",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X6th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X6th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783092,
+            "changeTime": 1512862783092,
+            "contentHash": "235825423ff78353ff16257d6b2a0fc0578eb360",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X6th_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X6th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783092,
+            "changeTime": 1512862783092,
+            "contentHash": "49bebba9dce3dc7ef42b644583a544d91ff1bc0b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X7th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X7th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783093,
+            "changeTime": 1512862783093,
+            "contentHash": "e3c6518a75d2799bd13154bb1a74f66ea9db87a7",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X7th_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X7th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783093,
+            "changeTime": 1512862783093,
+            "contentHash": "b84aac16169e52f09e4431dcac08d4a923ff1948",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X8th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X8th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783094,
+            "changeTime": 1512862783094,
+            "contentHash": "ddeace6c0acaefacf88b746e990a4ac693b3adc7",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X8th_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X8th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783094,
+            "changeTime": 1512862783094,
+            "contentHash": "70316ef63f1cf6eded5ecc512dc9116f02c1a5cd",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X9th_Call_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X9th_Call_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1512862783094,
+            "changeTime": 1512862783094,
+            "contentHash": "d16fd839920a103680f60f62d5f318ea13f1eef8",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X9th_Email_Sent__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\X9th_Email_Sent__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1512862783095,
+            "changeTime": 1512862783095,
+            "contentHash": "f371c16ad9710f2161b863a004db8cb30cc5554a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\Lead.object-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\Lead.object-meta.xml",
+            "isDirectory": false,
+            "size": 105,
+            "modifiedTime": 1512862783084,
+            "changeTime": 1512862783084,
+            "contentHash": "9884171c7907d10413a021f099cf1c0b5c2c150f",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\listViews",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\listViews",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1512862783095,
+            "changeTime": 1512862783095,
+            "contentHash": "2af52677c84dab12351cbd1d5b93d73e6b377c95",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\listViews\\Test_List.listView-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\listViews\\Test_List.listView-meta.xml",
+            "isDirectory": false,
+            "size": 518,
+            "modifiedTime": 1512862783095,
+            "changeTime": 1512862783095,
+            "contentHash": "518f1be52be7d4ec63d79eade69a6d1350527c0f",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\permissionsets",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\permissionsets",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1512862783096,
+            "changeTime": 1512862783096,
+            "contentHash": "5b1c54dd2dedceffef076bfea29263506d04f88c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\permissionsets\\Activity_Tracking_Permission.permissionset-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\permissionsets\\Activity_Tracking_Permission.permissionset-meta.xml",
+            "isDirectory": false,
+            "size": 7443,
+            "modifiedTime": 1512951958526,
+            "changeTime": 1512951958526,
+            "contentHash": "c0dda5c8c775ae81404764a449d73158dbdadff8",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\profiles",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\profiles",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1512862783098,
+            "changeTime": 1512862783098,
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+            "isDirectory": false,
+            "size": 18264,
+            "modifiedTime": 1512862783096,
+            "changeTime": 1512862783096,
+            "contentHash": "8d8a8f77f84f95ca84c348c0a38457b624084d18",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 5043,
+            "modifiedTime": 1512862783097,
+            "changeTime": 1512862783097,
+            "contentHash": "ec26328b85bce5a4c0552f5ee8089729565c1bd2",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 5043,
+            "modifiedTime": 1512862783097,
+            "changeTime": 1512862783097,
+            "contentHash": "ec26328b85bce5a4c0552f5ee8089729565c1bd2",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 5393,
+            "modifiedTime": 1512862783098,
+            "changeTime": 1512862783098,
+            "contentHash": "38f3efed7867d1cd6d56579293334f85bf5da71d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\quickActions",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\quickActions",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1512862783098,
+            "changeTime": 1512862783098,
+            "contentHash": "2798ebdd4136812d6b830667e2ce11503653dfa2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\quickActions\\Log_Activity.quickAction-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\quickActions\\Log_Activity.quickAction-meta.xml",
+            "isDirectory": false,
+            "size": 1965,
+            "modifiedTime": 1512862783098,
+            "changeTime": 1512862783098,
+            "contentHash": "7c7f9433d5b0d6a799726732d49e6670bda4444a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\triggers",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\triggers",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1512865087731,
+            "changeTime": 1512865087731,
+            "contentHash": "cca02e09472c978cdf97dab6a77d7d081a600745",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\triggers\\Last3Activities.trigger",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\triggers\\Last3Activities.trigger",
+            "isDirectory": false,
+            "size": 1349,
+            "modifiedTime": 1512873152173,
+            "changeTime": 1512873152173,
+            "contentHash": "ad800db6f9a56ef582d343fb34b3114e891353f1",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\triggers\\Last3Activities.trigger-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\triggers\\Last3Activities.trigger-meta.xml",
+            "isDirectory": false,
+            "size": 183,
+            "modifiedTime": 1512862783099,
+            "changeTime": 1512862783099,
+            "contentHash": "4182f79ff516745178772d0fd93a07da00d6c1b0",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\triggers\\LeadTrigger.trigger",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\triggers\\LeadTrigger.trigger",
+            "isDirectory": false,
+            "size": 1084,
+            "modifiedTime": 1512864797025,
+            "changeTime": 1512864797025,
+            "contentHash": "a96a75cf42654e8e51751a9dd3b796a91612cbce",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\triggers\\LeadTrigger.trigger-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\triggers\\LeadTrigger.trigger-meta.xml",
+            "isDirectory": false,
+            "size": 195,
+            "modifiedTime": 1512862783100,
+            "changeTime": 1512862783100,
+            "contentHash": "a50b5ac27c61ca179d504e3fb28fbdd09a005d77",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1512865543294,
+            "changeTime": 1512865543294,
+            "contentHash": "1586e54476bfb1067b16ed77a3c416e47fc0ad34",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\Clear_Tracking__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\Clear_Tracking__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 341,
+            "modifiedTime": 1512864783226,
+            "changeTime": 1512864783226,
+            "contentHash": "5fa87d2077d3032a6edd57665ab9284e3467319d",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\Reset_Tracking__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\Reset_Tracking__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 341,
+            "modifiedTime": 1512864791147,
+            "changeTime": 1512864791147,
+            "contentHash": "5d5d22c42dd5a3f45560ac8f047d87da5f40bcf6",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\triggers\\ContactTrigger.trigger",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\triggers\\ContactTrigger.trigger",
+            "isDirectory": false,
+            "size": 692,
+            "modifiedTime": 1512865171174,
+            "changeTime": 1512865171174,
+            "contentHash": "1fce25da3ee375b952ffa3c254df43ad21cc6df2",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\triggers\\ContactTrigger.trigger-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\triggers\\ContactTrigger.trigger-meta.xml",
+            "isDirectory": false,
+            "size": 194,
+            "modifiedTime": 1512865087731,
+            "changeTime": 1512865087732,
+            "contentHash": "89e19b8613637791e4f5b273e2e4c05a8de27713",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\layouts\\Contact-Contact Layout.layout-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\layouts\\Contact-Contact Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 13516,
+            "modifiedTime": 1512951958505,
+            "changeTime": 1512951958505,
+            "contentHash": "d318c22a608822db9cf01092a1f08073a65b4463",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\flexipages\\Lead_Record_Page1.flexipage-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\flexipages\\Lead_Record_Page1.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 5263,
+            "modifiedTime": 1512951958509,
+            "changeTime": 1512951958509,
+            "contentHash": "f77dfba3f975da970bfbf168ad2aa791a0e5182e",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\flexipages\\Contact_Record_Page.flexipage-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\flexipages\\Contact_Record_Page.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 6149,
+            "modifiedTime": 1512951958515,
+            "changeTime": 1512951958515,
+            "contentHash": "81cc46f486481eeb4a57ccfba788e2546faa5200",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\Last_Activity_Trigger__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Lead\\fields\\Last_Activity_Trigger__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 550,
+            "modifiedTime": 1512953596482,
+            "changeTime": 1512953596482,
+            "contentHash": "939b8c6b18d6ddb5e4a932ef75d6de18d8c800bb",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\Last_Activity_Trigger__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Jonathan\\my_sfdx_project\\activity\\force-app\\main\\default\\objects\\Contact\\fields\\Last_Activity_Trigger__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 550,
+            "modifiedTime": 1512953596487,
+            "changeTime": 1512953596487,
+            "contentHash": "939b8c6b18d6ddb5e4a932ef75d6de18d8c800bb",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ]
+]

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Activity_Date_1__c</fullName>
+        <externalId>false</externalId>
+        <label>ABM Email 1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Date_2__c</fullName>
+        <externalId>false</externalId>
+        <label>ABM Email 2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Date_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity_Date_3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Clear_Tracking__c</fullName>
+        <externalId>false</externalId>
+        <label>Clear Tracking</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Last_Activity_Trigger__c</fullName>
+        <description>Used to allow for triggering a field update from the last activity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used to allow for triggering a field update from the last activity.</inlineHelpText>
+        <label>Last Activity Trigger</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Last_Call__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Call</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Reset_Tracking__c</fullName>
+        <externalId>false</externalId>
+        <label>Reset Tracking</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X10th_Call_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>10th Call Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X10th_Email_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>10th Email Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X1st_Call_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>1st Call Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X1st_Email_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>1st Email Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X2nd_Call_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>2nd Call Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X2nd_Email_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>2nd Email Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X3rd_Call_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>3rd Call Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X3rd_Email_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>3rd Email Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X4th_Call_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>4th Call Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X4th_Email_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>4th Email Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X5th_Call_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>5th Call Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X5th_Email_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>5th Email Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X6th_Call_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>6th Call Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X6th_Email_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>6th Email Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X7th_Call_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>7th Call Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X7th_Email_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>7th Email Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X8th_Call_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>8th Call Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X8th_Email_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>8th Email Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X9th_Call_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>9th Call Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>X9th_Email_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>9th Email Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+</CustomObject>
