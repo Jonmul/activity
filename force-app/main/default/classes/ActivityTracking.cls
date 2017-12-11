@@ -107,8 +107,8 @@ public with sharing class ActivityTracking {
                 }
             }
         }
-        List<Lead> theLeads = [SELECT Id,title,Last_Email__c,Last_Call__c,X1st_Email_Sent__c,X2nd_Email_Sent__c,X3rd_Email_Sent__c,X4th_Email_Sent__c,X5th_Email_Sent__c,X6th_Email_Sent__c,X7th_Email_Sent__c,X8th_Email_Sent__c,X9th_Email_Sent__c,X10th_Email_Sent__c,X1st_Call_Sent__c,X2nd_Call_Sent__c,X3rd_Call_Sent__c,X4th_Call_Sent__c,X5th_Call_Sent__c,X6th_Call_Sent__c,X7th_Call_Sent__c,X8th_Call_Sent__c,X9th_Call_Sent__c,X10th_Call_Sent__c FROM Lead WHERE Id IN :s_LeadIDs ];
-        List<Contact> theContacts = [SELECT Id,title,Last_Email__c,Last_Call__c,X1st_Email_Sent__c,X2nd_Email_Sent__c,X3rd_Email_Sent__c,X4th_Email_Sent__c,X5th_Email_Sent__c,X6th_Email_Sent__c,X7th_Email_Sent__c,X8th_Email_Sent__c,X9th_Email_Sent__c,X10th_Email_Sent__c,X1st_Call_Sent__c,X2nd_Call_Sent__c,X3rd_Call_Sent__c,X4th_Call_Sent__c,X5th_Call_Sent__c,X6th_Call_Sent__c,X7th_Call_Sent__c,X8th_Call_Sent__c,X9th_Call_Sent__c,X10th_Call_Sent__c FROM Contact WHERE Id IN :s_ContactIDs ];
+        List<Lead> theLeads = [SELECT Id,title,Last_Activity_Trigger__c,Last_Email__c,Last_Call__c,X1st_Email_Sent__c,X2nd_Email_Sent__c,X3rd_Email_Sent__c,X4th_Email_Sent__c,X5th_Email_Sent__c,X6th_Email_Sent__c,X7th_Email_Sent__c,X8th_Email_Sent__c,X9th_Email_Sent__c,X10th_Email_Sent__c,X1st_Call_Sent__c,X2nd_Call_Sent__c,X3rd_Call_Sent__c,X4th_Call_Sent__c,X5th_Call_Sent__c,X6th_Call_Sent__c,X7th_Call_Sent__c,X8th_Call_Sent__c,X9th_Call_Sent__c,X10th_Call_Sent__c FROM Lead WHERE Id IN :s_LeadIDs ];
+        List<Contact> theContacts = [SELECT Id,title,Last_Activity_Trigger__c,Last_Email__c,Last_Call__c,X1st_Email_Sent__c,X2nd_Email_Sent__c,X3rd_Email_Sent__c,X4th_Email_Sent__c,X5th_Email_Sent__c,X6th_Email_Sent__c,X7th_Email_Sent__c,X8th_Email_Sent__c,X9th_Email_Sent__c,X10th_Email_Sent__c,X1st_Call_Sent__c,X2nd_Call_Sent__c,X3rd_Call_Sent__c,X4th_Call_Sent__c,X5th_Call_Sent__c,X6th_Call_Sent__c,X7th_Call_Sent__c,X8th_Call_Sent__c,X9th_Call_Sent__c,X10th_Call_Sent__c FROM Contact WHERE Id IN :s_ContactIDs ];
 
         List<SObject> thePeople = new List<SObject>();
 
