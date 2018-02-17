@@ -69,7 +69,7 @@ Contains core Contact fields
 
 /force-app/main/default/classes/
 
-Contains 3 classes:
+Contains 3 core classes:
 - ActivityHelper
   - Helper class that detects the type of Activity based on Subject (if Type is unavailable)
 
@@ -78,6 +78,16 @@ Contains 3 classes:
 
 - TestTaskUpdate
   - Test Class with basic unit tests and code-coverage.
+  
+/force-app/main/default/triggers/
+
+Contains 3 core Triggers:
+- Contact Trigger
+  - Trigger for Contact-record updates on the core reset/clearing fields, triggering functionality in the application
+- Lead Trigger
+  - Trigger for Lead-record updates on the core reset/clearing fields, triggering functionality in the application
+- Last3Activities
+  - Contains functionality to trigger tracking against the Lead/Contact Objects when a new Activity is inserted. Contact tracking is done via asynchronously due to Salesforce's backend association of email Activity with Email-to-Salesforce.
 
 ## Issues
 Last Activity Trigger does not currently function as intended when using Reset_Activity. Needs to be adjusted to us the Activity date and/or time of the Activity record(s), however, this is not core functionality.
