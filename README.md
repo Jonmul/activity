@@ -1,4 +1,4 @@
-# SFDX  App
+# Activity Cadence Tracking  App
 Hello!
 
 This Salesforce application is built to support a 10-call and 10-email cadence tracking, and dynamically control where the tracking starts, ends, and (as needed) reset/recalculate the tracking as of a specific date. Only tracks the first activity of any given day. I.e. 10 calls to 1 Lead are not tracked as 1 through 10 calls, but simply 1 call. Generally, this makes it very simple to report on a more controlled outreach cadence, and only taking into account Activity as of a system/admin-defined datetime.
