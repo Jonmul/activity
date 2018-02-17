@@ -1,7 +1,7 @@
 # Activity Cadence Tracking  App
 Hello!
 
-This Salesforce application is built to support a 10-call and 10-email cadence tracking, and dynamically control where the tracking starts, ends, and (as needed) reset/recalculate the tracking as of a specific date. Only tracks the first activity of any given day. I.e. 10 calls to 1 Lead are not tracked as 1 through 10 calls, but simply 1 call. Generally, this makes it very simple to report on a more controlled outreach cadence, and only taking into account Activity as of a system/admin-defined datetime.
+This Salesforce application is built to support a 10-call and 10-email cadence tracking, and dynamically control where the tracking starts, ends, and (as needed) reset/recalculate the tracking as of a specific date. Only tracks the first activity of any given day. I.e. 10 calls to 1 Lead on the same day are not tracked as 1 through 10 calls, but simply 1 call. Generally, this makes it very simple to report on a more controlled outreach cadence, and only taking into account Activity as of a system/admin-defined datetime.
 
 The overall functionality is built to support Admin control over how the reset/clearing functionality behaves, generally reducing the need for Developer intervention when adjusting functionality. For example: nothing in this code will in-of-itself trigger clearing Activity, I've added a process-builder update to control the timestamping to reset and/or clear activity in Production.
 
