@@ -47,7 +47,7 @@ As most core functionality is simply calling a generic "Object", this applicatio
   - Description: NA
 
 ## Dev, Build and Test
-This application has unit-tests built-in, and has been tested to function properly on bulk record updates and inserts. 
+This application contains all necessary Fields, Triggers, Classes, and unit-tests built-in, and has been tested to function properly on bulk record updates and inserts. Note: If installing, this was deployed via SalesforceDX and you may need to exclude extraneous permission-sets and other development-related items.
 
 For Reseting Activity: The limits of the functionality are theoretically higher than any realistic operations a normal system may face - generally are limited by the SOQL query limits and potential number of Activities against a set of records.
 
