@@ -12,34 +12,39 @@ As most core functionality is simply calling a generic "Object", this applicatio
 ## Functionality & Key Fields
 
 - Clear Tracking
-Type: DateTime
-Effect: Changes to this field will trigger a full-clearing of Activity tracking on the corresponding Object.
-Description: This is built with the intention that any admin or developer can change the timestamp value to trigger clearing of the Activity tracking on the Lead / Contact Records. This functionality requires a workflow-rule, Process-Builder, or similar field update to trigger the functionality.
+  - Type: DateTime
+  - Effect: Changes to this field will trigger a full-clearing of Activity tracking on the corresponding Object.
+  - Description: This is built with the intention that any admin or developer can change the timestamp value to trigger clearing of the Activity tracking on the Lead / Contact Records. This functionality requires a workflow-rule, Process-Builder, or similar field update to trigger the functionality.
 
 - Reset Tracking
-Type: DateTime
-Effect: Changes to this field will trigger a reset of Activity tracking on the corresponding Object, tracking Calls & Emails back to the exact DateTime value.
-Description: This is built with the intention that any admin or developer can change the timestamp value to trigger Reset of the Activity tracking on the Lead / Contact Records. This functionality requires a workflow-rule, Process-Builder, or similar field update to trigger the functionality.
+  - Type: DateTime
+  - Effect: Changes to this field will trigger a reset of Activity tracking on the corresponding Object, tracking Calls & Emails back to the exact DateTime value.
+  - Description: This is built with the intention that any admin or developer can change the timestamp value to trigger Reset of the Activity tracking on the Lead / Contact Records. This functionality requires a workflow-rule, Process-Builder, or similar field update to trigger the functionality.
 
 - Last Call
-Type: Date
-Effect: Managed by App, tracks the last call made against the record.
-Description: This is generally used to see the Last Call to the record, could be used externally (e.g. Process-Builder by an Admin). This is similar to the default Salesforce-managed "Last Activity", but is more flexible and specific to Call Activity.
+  - Type: Date
+  - Effect: Managed by App, tracks the last call made against the record.
+  - Description: This is generally used to see the Last Call to the record, could be used externally (e.g. Process-Builder by an Admin). This is similar to the default Salesforce-managed "Last Activity", but is more flexible and specific to Call Activity.
 
 - Last Email
-Type: Date
-Effect: Managed by App, tracks the last email made against the record.
-Description: This is generally used to see the Last Email to the record, could be used externally (e.g. Process-Builder by an Admin). This is similar to the default Salesforce-managed "Last Activity", but is more flexible and specific to Call Activity.
+  - Type: Date
+  - Effect: Managed by App, tracks the last email made against the record.
+  - Description: This is generally used to see the Last Email to the record, could be used externally (e.g. Process-Builder by an Admin). This is similar to the default Salesforce-managed "Last Activity", but is more flexible and specific to Call Activity.
 
 - Last Activity Trigger
-Type: DateTime
-Effect: Has the Last Activity DateTime of a record.
-Description: To be usable by Admin to build workflows/Process-builder updates on a record based on Last Activity changing (when default Salesforce-managed Last Activity is unavailable in the tool).
+  - Type: DateTime
+  - Effect: Has the Last Activity DateTime of a record.
+  - Description: To be usable by Admin to build workflows/Process-builder updates on a record based on Last Activity changing (when default Salesforce-managed Last Activity is unavailable in the tool).
 
 - 1st -> 10th Call (10 separate fields)
-Type: Date
-Effect: 
-
+  - Type: Date
+  - Effect: Stores Date of Activity, calculated by the application
+  - Description: NA
+  
+- 1st -> 10th Email (10 separate fields)
+  - Type: Date
+  - Effect: Stores Date of Activity, calculated by the application
+  - Description: NA
 
 ## Dev, Build and Test
 This application has unit-tests built-in, and has been tested to function properly on bulk record updates and inserts. 
@@ -51,25 +56,28 @@ E.g. SOQL query limit is 50,000 records, so a batch update of Leads or Contacts 
 Other functionality is not expected to hit scaling issues.
 
 ## Resources
-jonmul3@gmail.com if you have questions!
+jonmul3@gmail.com if you have questions! 
 
 ## Description of Files and Directories
 /force-app/main/default/objects/Lead/fields/
+
 Contains core Lead fields
 
 /force-app/main/default/objects/Contact/fields/
+
 Contains core Contact fields
 
 /force-app/main/default/classes/
+
 Contains 3 classes:
--ActivityHelper
-Helper class that detects the type of Activity based on Subject (if Type is unavailable)
+- ActivityHelper
+  - Helper class that detects the type of Activity based on Subject (if Type is unavailable)
 
--ActivityTracking
-Core functionality class for all Tracking calculation.
+- ActivityTracking
+  - Core functionality class for all Tracking calculation.
 
--TestTaskUpdate
-Test Class with basic unit tests and code-coverage.
+- TestTaskUpdate
+  - Test Class with basic unit tests and code-coverage.
 
 ## Issues
 Last Activity Trigger does not currently function as intended when using Reset_Activity. Needs to be adjusted to us the Activity date and/or time of the Activity record(s), however, this is not core functionality.
