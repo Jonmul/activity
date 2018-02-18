@@ -51,7 +51,7 @@ This application contains all necessary Fields, Triggers, Classes, and unit-test
 
 For Reseting Activity: The limits of the functionality are theoretically higher than any realistic operations a normal system may face - generally are limited by the SOQL query limits and potential number of Activities against a set of records.
 
-E.g. SOQL query limit is 50,000 records, so a batch update of Leads or Contacts would need to have less than 50,000 Activity records. With typical high batch sizes of 200-500; there is a 250 - 100 average Activities per-record maximum processing ability. Given the user-defined timeframe for reseting Activity, it is very unlikely you will hit that limit (and you may simply reduce the batch size).
+E.g. SOQL query limit is 50,000 records, so a batch update of Leads or Contacts would need to have less than 50,000 Activity records. With typical batch sizes of 200; there is a 250 average Activities per-record maximum processing ability. Given the user-defined timeframe for reseting Activity, it is very unlikely you will hit that limit (and you may simply reduce the batch size).
 
 Other functionality is not expected to hit scaling issues.
 
